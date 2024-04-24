@@ -52,7 +52,7 @@ class Circle {
 
 let arrayCircle = [];
 
-for (let i = 0; i < 5; i++) {
+for (let i = 0; i < 10; i++) {
     let randomX = Math.random() * window_width;
     let randomY = Math.random() * window_height;
     let randomRadius = Math.floor(Math.random() * 100 + 15);
@@ -70,4 +70,4 @@ let updateCircles = function() {
     });
 }
 
-updateCircles();
+updateCircles(); // Llamamos a la función para que se ejecute
